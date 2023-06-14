@@ -269,7 +269,7 @@ public class MainActivity extends AppCompatActivity {
                 if(clickedDiv){
                     if(!storeDivalue.equals("") && !currentDis.equals("")){
                         if(currentDis.equals("0")){
-                            txtDisplay.setText("Cannot divide by zero");
+                            txtDisplay.setText("Cannot divide by zero be serious");
                         }else{
                             globalValue = Double.parseDouble(storeDivalue) / Double.parseDouble(currentDis);
                             currentDis = String.valueOf(globalValue);
